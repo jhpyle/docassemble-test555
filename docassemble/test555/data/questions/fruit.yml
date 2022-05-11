@@ -1,0 +1,18 @@
+metadata:
+  title: Fruit interview
+---
+event: set_subtitle
+code: |
+  set_title(subtitle=action_argument('subtitle'))
+  background_response()
+---
+mandatory: True
+question: |
+  This is the fruit interview.
+subquestion: |
+  Your favorite fruit is ${ favorite_fruit }.
+---
+question: |
+  What is your favorite fruit?
+fields:
+  - Fruit: favorite_fruit
