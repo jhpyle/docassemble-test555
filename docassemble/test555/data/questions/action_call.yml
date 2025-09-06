@@ -9,4 +9,4 @@ subquestion: |
 event: foo
 code: |
   log("doing foo action")
-  json_response({'ok': False})
+  json_response({'ok': True})
