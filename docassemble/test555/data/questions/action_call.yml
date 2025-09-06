@@ -8,5 +8,5 @@ subquestion: |
 ---
 event: foo
 code: |
-  log("doing foo action")
+  log("doing foo actions")
   json_response({'ok': True})
