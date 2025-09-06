@@ -1,0 +1,12 @@
+features:
+  javascript: action_call.js
+---
+mandatory: True
+question: foo
+subquestion: |
+  [Click me](about:blank){:class="mybutton"}
+---
+event: foo
+code: |
+  log("doing foo action")
+  json_response({'ok': True})
